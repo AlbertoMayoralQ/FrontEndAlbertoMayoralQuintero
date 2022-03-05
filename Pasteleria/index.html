@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería</title>
+    <style>
+        *{
+            background-color: #e1e1e1;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ee9cf0' fill-opacity='0.32' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header,.hea{
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .derecha{
+            text-align: right;
+        }
+
+        table{
+            margin:0 auto;
+        }
+
+        tr{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1><img src="https://cdn.create.vista.com/api/media/medium/471029354/stock-vector-birthday-cake-golden-line-premium?token=DKMRtlHGaKH4y4ScQJCRcqTq9AqdTgJKHzCSvCDj98uYQja316vJPalLAfWnLaEz" alt="Logo Pasteleria"  width="80px" height="75px"> Dulce Pastel</h1>
+    </header>
+    
+    
+    <p  class="derecha">
+        <a href="encuentranos.html">Encuentranos</a>
+        <a href="pastelero.html">Pastelero</a>
+    </p>
+    <h1 class="hea">Bienvenidos</h1><br>
+
+
+
+    <table><h2 class="hea">Pasteles</h2>
+   
+        <tr>
+            <th>Nombre de Pastel</th>
+            <th>Descripción</th>
+            <th>Sabor</th>
+            <th>Precio</th>
+        </tr>
+
+        <tr>
+            <td>3 Dulces <br><img src="https://cdn.kiwilimon.com/recetaimagen/36187/th5-640x640-44504.jpg" alt="Pastel 3 Leches" width="150px" height="130px"> </td>
+            <td>Esponjoso pan de vainilla relleno de duraznos, <br>perfectamente bañado  con una dulce mezcla de <br>leches y  decorado con crema batida ytrozos de fresa.</td>
+            <td>Especial de 3 leches</td>
+            <td>$345</td>
+
+        </tr>
+
+     
+        
+        <tr>
+            <td>Cocolo <br><img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/10/como-se-hace-el-pastel-de-coco-rallado-sencillo.jpg" alt="Pastel cocolo" width="150px" height="130px"> </td>
+            <td>Rico pastel preparado con pan vainilla, salseado <br>con un jarabe de 3 leches sabor Calahua, relleno de <br>bavaria el de lechera y cubierto con crema suspiros,<br> coco, y decorado con trufas de coco.</td>
+            <td>Coco</td>
+            <td>$340</td>
+        </tr>
+        <tr>
+            <td>Choco <br><img src="https://aranzazu.com/wp-content/uploads/2020/05/Pastel-Chocolate-Nuez-1.png" alt="Pastel chocolate" width="150px" height="130px"> </td>
+            <td>Pastel de Chocolate y nuez. Pan de chocolate cubierto <br> y relleno de betún de chocolate y nuez en trozos.</td>
+            <td>Chocolate</td>
+            <td>$400</td>
+        </tr>
+    </table>
+
+
+    <br><hr>
+
+    <table><h2 class="hea">Adornos</h2>
+        <tr>
+            <th>Nombre de adorno</th>
+            <th>Precio</th>       
+        <tr>
+            <td>Oreo<br><img src="https://thumbs.dreamstime.com/b/biscuits-de-oreo-con-trozos-y-migas-aisladas-en-blanco-es-un-s%C3%A1ndwich-galletas-llenas-crema-dulce-fondo-166294225.jpg" alt="Biscuits de oreo" width="150px" height="120px"> </td></td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td>Ferrero <br><img src="https://cdn-3.expansion.mx/ce/01/c82a7f934d6080a0971f7dbb3f16/istock-458931415.jpg" alt="Biscuits de ferrero" width="150px" height="110px"> </td></td>
+            <td>$120</td>
+        </tr>
+        <tr>
+            <td>Crunch <br><img src="https://nadiashealthykitchen.com/wp-content/uploads/2019/01/chocolate-quinoa-crunch-bites10.jpg" alt="Bites de crunch" width="150px" height="130px"></td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td>Lunetas <br><img src="https://elnumerouno.org/wp-content/uploads/2020/09/20180828_163359.jpg" alt="Lunetas" width="150px" height="130px"></td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td>Chocolate blanco<br><img src="https://i.ytimg.com/vi/LUTA_LqjVMs/maxresdefault.jpg" alt="Bites de chocolate blanco" width="150px" height="130px"></td>
+            <td>$80</td>
+        </tr>
+    </tr>
+    </table>
+    <br><hr>
+    <h2 class="hea">Realiza tu orden</h2>
+  
+        <label for="pastel">Elige tu pastel favorito</label><br><br>
+        <input list="pastel">
+    <datalist id="pastel">
+        <option value="3 Dulces">
+        <option value="Cocolo">
+        <option value="Choco">
+    </datalist>
+<br><br>
+
+        <label for="adorno">Elige tu(s) adorno(s) favorito</label><br><br>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="topping1">Oreo</label>
+        <label for="numeroOreo"><input type="number" id="numeroOreo" name="numeroOreo" min="0" step="1" value="0" max="5"><br><br>
+        <label for="topping2">Ferrero</label>
+        <label for="numeroFerrero"><input type="number" id="numeroFerrero" name="numeroFerrero" min="0" step="1" value="0" max="5"><br><br>
+        <label for="topping3">Crunch</label>
+        <label for="numeroCrunch"><input type="number" id="numeroCrunch" name="numeroCrunch" min="0" step="1" value="0" max="5"><br><br>
+        <label for="topping3">Lunetas</label>
+        <label for="numeroLuneta"><input type="number" id="numeroLunetas" name="numeroLunetas" min="0" step="1" value="0" max="5"><br><br>
+        <label for="topping3">Chocolate blanco</label>
+        <label for="numeroChocolateB"><input type="number" id="numeroChocolateB" name="numeroChocolateB" min="0" step="1" value="0" max="5"><br><br>
+    <hr>
+         <h2 class="hea">Datos</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" form="form1"><br><br>
+        <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+        <label for="tel1">Teléfono:</label>
+            <input type="tel" id="tel1" name="tel1" form="form1" maxlength="10"><br><br>
+        <label for="correo1">Correo electonico:</label>
+            <input type="email" id="correo1" name="correo1" form="form1" ><br><br>
+    
+        <input type="reset">&nbsp;
+           <input type="button" id="boton1" name="boton1" value="Enviar" onclick="alert('Pedido enviado!');"><br><br>
+    </form>
+
+
+     
+            
+</body>
+</html>
